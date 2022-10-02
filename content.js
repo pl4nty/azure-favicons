@@ -7,7 +7,9 @@ fetch(chrome.runtime.getURL('msportalfx-svg.css')).then(res => res.text()).then(
 function loadIcon() {
   let refIcon = document.querySelector(".fxs-blade-header-icon use") // header
   || document.querySelector(".fxc-gcflink-icon use") // table row - some don't have icons eg Subscriptions
-  || document.querySelector(".ext-overlay-image svg use") // optional overlay for table with no rows
+  || document.querySelector(".ext-hubs-artbrowse-emptyicon svg use") // optional overlays for table with no rows
+  || document.querySelector(".ext-hubs-browse-emptyicon svg use") // as above
+  || document.querySelector(".ext-overlay-image svg use") // as above
   || [...document.querySelectorAll('.fxs-portal-activated use')].pop() // blade without header eg Properties
 
   if (refIcon) {
