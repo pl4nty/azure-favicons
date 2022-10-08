@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Azure Tab Icons",
+  "description": "Automatic browser tab icons for Azure",
+  "version": "0.1.1",
+  "author": "Tom Plant",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.portal.azure.com/*",
+        "https://*.portal.azure.us/*",
+        "https://*.portal.azure.cn/*",
+        "https://*.portal.azure.com.mcas.ms/*",
+        "https://*.portal.azure.us.mcas-gov.us/*",
+        "https://endpoint.microsoft.com/*",
+        "https://endpoint.microsoft.us/*",
+        "https://endpoint.microsoftonline.cn/*",
+        "https://endpoint.microsoft.com.mcas.ms/*",
+        "https://endpoint.microsoft.us.mcas-gov.us/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": ["msportalfx-svg.css"]
+}

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Azure Tab Icons",
   "description": "Automatic browser tab icons for Azure",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Tom Plant",
   "content_scripts": [
     {
