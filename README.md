@@ -1,9 +1,9 @@
 # Azure Favicons Browser Extension
 
-[![version](https://img.shields.io/github/v/release/pl4nty/azure-favicons?display_name=tag&include_prereleases&sort=semver&logo=github&logoColor=white)](https://github.com/pl4nty/azure-favicons/releases)
-[![Chrome Extension](https://img.shields.io/chrome-web-store/v/hmgddgaakbfbopdgimejdjhkpobgdhae?logo=google%20chrome&logoColor=white&label=chrome)](https://chrome.google.com/webstore/detail/azure-tab-icons/hmgddgaakbfbopdgimejdjhkpobgdhae)
-[![Edge Add-on](https://img.shields.io/chrome-web-store/v/klafhpmolhbpidjmfkappoicpifecfdc?logo=microsoft%20edge&logoColor=white&label=edge)](https://microsoftedge.microsoft.com/addons/detail/azure-tab-icons/klafhpmolhbpidjmfkappoicpifecfdc)
-[![Firefox Add-on](https://img.shields.io/amo/v/azure-tab-icons?logo=firefox%20browser&logoColor=white&label=firefox)](https://addons.mozilla.org/en-US/firefox/addon/azure-tab-icons)
+[![version](https://img.shields.io/github/v/release/pl4nty/azure-favicons?display_name=tag&include_prereleases&sort=semver&logo=github&logoColor=white&color=success)](https://github.com/pl4nty/azure-favicons/releases)
+[![Chrome Extension](https://img.shields.io/chrome-web-store/v/hmgddgaakbfbopdgimejdjhkpobgdhae?logo=google%20chrome&logoColor=white&label=chrome&color=success)](https://chrome.google.com/webstore/detail/azure-tab-icons/hmgddgaakbfbopdgimejdjhkpobgdhae)
+[![Edge Add-on](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fklafhpmolhbpidjmfkappoicpifecfdc&prefix=v&query=%24.version&logo=microsoft%20edge&logoColor=white&label=edge&color=success)](https://microsoftedge.microsoft.com/addons/detail/azure-tab-icons/klafhpmolhbpidjmfkappoicpifecfdc)
+[![Firefox Add-on](https://img.shields.io/amo/v/azure-tab-icons?logo=firefox%20browser&logoColor=white&label=firefox&color=success)](https://addons.mozilla.org/en-US/firefox/addon/azure-tab-icons)
 
 Tired of all your Azure or Intune browser tabs having the same favicon? This extension fixes that by setting the favicon to the appropriate one for the current service.
 
