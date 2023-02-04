@@ -5,7 +5,7 @@ let styles;
 fetch(chrome.runtime.getURL('msportalfx-svg.css')).then(res => res.text()).then(text => styles = text)
 
 function loadIcon() {
-  let refIcon = [...document.querySelector(".fxs-blade-header-icon use")].pop() // header
+  let refIcon = [...document.querySelectorAll(".fxs-blade-header-icon use")].pop() // header
   || document.querySelector(".fxc-gcflink-icon use") // table row - some don't have icons eg Subscriptions
   || document.querySelector(".ext-hubs-artbrowse-emptyicon svg use") // optional overlays for table with no rows
   || document.querySelector(".ext-hubs-browse-emptyicon svg use") // as above
