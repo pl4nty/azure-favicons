@@ -4,6 +4,11 @@
   "description": "Automatic browser tab icons for Azure",
   "version": "1.0.0",
   "author": "Tom Plant",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{225328c3-d410-4aec-b3d6-21a9b47ebdbd}"
+    }
+  },
   "content_scripts": [
     {
       "js": ["content.js"],
