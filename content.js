@@ -22,6 +22,7 @@ function loadIcon() {
     } else {
       // some blades use external icons eg costmanagement
       let externalIcon = document.querySelector(".fxs-blade-header-icon img")?.src
+      || document.querySelector('.displayed-container')?.querySelector('.contributed-icon')?.src // Azure DevOps
       setIcon(externalIcon || defaultIcon)
     }
   } 
@@ -46,8 +47,10 @@ function setSVGIcon(svgRef) {
 
 function setIcon(icon) {
   let link = document.querySelector("link[rel=icon]")
-  link.removeAttribute('type')
-  link.href = icon
+  if (link) {
+    link.removeAttribute('type')
+    link.href = icon
+  }
 
   let shortcut = document.querySelector("link[rel='shortcut icon']")
   if (shortcut) {

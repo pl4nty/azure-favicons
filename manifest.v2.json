@@ -20,7 +20,9 @@
         "https://entra.microsoft.com/*",
         "https://entra.microsoft.us/*",
         "https://entra.microsoft.com.mcas.ms/*",
-        "https://entra.microsoft.us.mcas-gov.us/*"
+        "https://entra.microsoft.us.mcas-gov.us/*",
+        "https://dev.azure.com/*",
+        "https://dev.azure.com.mcas.ms/*"
       ],
       "js": ["content.js"]
     }
