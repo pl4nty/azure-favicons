@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Azure Tab Icons",
   "description": "Automatic browser tab icons for Azure",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Tom Plant",
   "content_scripts": [
     {
@@ -17,6 +17,11 @@
         "https://endpoint.microsoftonline.cn/*",
         "https://endpoint.microsoft.com.mcas.ms/*",
         "https://endpoint.microsoft.us.mcas-gov.us/*",
+        "https://intune.microsoft.com/*",
+        "https://intune.microsoft.us/*",
+        "https://intune.microsoftonline.cn/*",
+        "https://intune.microsoft.com.mcas.ms/*",
+        "https://intune.microsoft.us.mcas-gov.us/*",
         "https://entra.microsoft.com/*",
         "https://entra.microsoft.us/*",
         "https://entra.microsoft.com.mcas.ms/*",
